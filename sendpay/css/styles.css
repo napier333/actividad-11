@@ -4,3 +4,19 @@ html {
     /*10px === 1rem*/
     font-size: 62.5%;
 }
+
+
+/*header*/
+
+.container {
+    width: 90%;
+    height: 100vh;
+}
+
+
+/*menu  de navegacion*/
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
