@@ -5,18 +5,55 @@ html {
     font-size: 62.5%;
 }
 
+* a {
+    text-decoration: none;
+}
+
 
 /*header*/
 
 .container {
-    width: 90%;
     height: 100vh;
+}
+
+
+/*---------------menu de navegacion---------------*/
+
+
+/*nombre del sitio web*/
+
+span {
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
 }
 
 
 /*menu  de navegacion*/
 
 .menu {
+    width: 90%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+
+/*logo*/
+
+.logo-principal {
+    display: flex;
+    align-items: center;
+}
+
+
+/*link de navegacion*/
+
+.link-navegacion {
+    width: 50rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #ffffff;
 }
