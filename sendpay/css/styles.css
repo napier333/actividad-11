@@ -50,16 +50,20 @@ span {
 /*link de navegacion*/
 
 .link-navegacion {
-    width: 50rem;
+    width: 70rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .link-navegacion li a {
     color: #000000;
     font-weight: bold;
+}
+
+.link-navegacion li:last-child {
+    margin-left: 3.5rem;
 }
 
 
@@ -71,4 +75,17 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.registrar a {
+    display: block;
+    border: 0.2rem #b7b3b3 solid;
+    padding: 0.3rem 1.2rem;
+    font-weight: 500;
+}
+
+.registrar .link-registrar1 {
+    padding: 0.3rem 1.7rem;
+    margin-right: 1rem;
+    color: #000000;
 }
