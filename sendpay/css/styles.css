@@ -55,5 +55,20 @@ span {
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
-    color: #ffffff;
+}
+
+.link-navegacion li a {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/*registrar*/
+
+.registrar {
+    width: 20rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
